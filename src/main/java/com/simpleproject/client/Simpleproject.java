@@ -71,7 +71,7 @@ public class Simpleproject implements EntryPoint {
     dialogVPanel.addStyleName("dialogVPanel");
     dialogVPanel.add(new HTML("<b>Sending name to the server:</b>"));
     dialogVPanel.add(textToServerLabel);
-    dialogVPanel.add(new HTML("<br><b>Server replies:</b>"));
+    dialogVPanel.add(new HTML("<br><b>Test:</b>"));
     dialogVPanel.add(serverResponseLabel);
     dialogVPanel.setHorizontalAlignment(VerticalPanel.ALIGN_RIGHT);
     dialogVPanel.add(closeButton);

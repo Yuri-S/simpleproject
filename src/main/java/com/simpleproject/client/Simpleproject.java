@@ -78,25 +78,6 @@ public class Simpleproject implements EntryPoint {
     
     dialogVPanel.add(new Label("New Test!"));
     
-    dialogVPanel.add(new Label("New branch"));
-    dialogVPanel.add(new Label("added New branch"));
-    
-    
-    Label n  = new Label("Another Label");
-    
-    dialogVPanel.add(n);
-
-    n.setVisible(false);
-
-    n.setTitle("New better Title no changes");
-
-    dialogBox.setWidget(dialogVPanel);
-
-    
-    
-    Label newLabel  = new Label("newLabel");
-    newLabel.setVisible(true);
-    
     // Add a handler to close the DialogBox
     closeButton.addClickHandler(new ClickHandler() {
       public void onClick(ClickEvent event) {

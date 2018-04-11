@@ -75,6 +75,8 @@ public class Simpleproject implements EntryPoint {
     dialogVPanel.add(serverResponseLabel);
     dialogVPanel.setHorizontalAlignment(VerticalPanel.ALIGN_RIGHT);
     dialogVPanel.add(closeButton);
+    
+    dialogVPanel.add(new Label("New Test!"));
     dialogBox.setWidget(dialogVPanel);
 
     // Add a handler to close the DialogBox

@@ -83,6 +83,7 @@ public class Simpleproject implements EntryPoint {
     Label n  = new Label("Another Label");
     
     dialogVPanel.add(n);
+    n.setTitle("New better Title no changes");
     dialogBox.setWidget(dialogVPanel);
 
     // Add a handler to close the DialogBox

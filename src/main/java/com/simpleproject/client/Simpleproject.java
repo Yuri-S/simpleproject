@@ -79,6 +79,10 @@ public class Simpleproject implements EntryPoint {
     dialogVPanel.add(new Label("New Test!"));
     
     // Add a handler to close the DialogBox
+    
+    
+    dialogVPanel.add(new Label("My change 2!"));
+    
     closeButton.addClickHandler(new ClickHandler() {
       public void onClick(ClickEvent event) {
         dialogBox.hide();

@@ -88,6 +88,11 @@ public class Simpleproject implements EntryPoint {
     n.setVisible(false);
     dialogBox.setWidget(dialogVPanel);
 
+    
+    
+    Label newLabel  = new Label("newLabel");
+    newLabel.setVisible(true);
+    
     // Add a handler to close the DialogBox
     closeButton.addClickHandler(new ClickHandler() {
       public void onClick(ClickEvent event) {

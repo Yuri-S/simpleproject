@@ -79,7 +79,7 @@ public class Simpleproject implements EntryPoint {
     dialogVPanel.add(new Label("New Test!"));
     
     dialogVPanel.add(new Label("New branch"));
-    
+    dialogVPanel.add(new Label("added New branch"));
     Label n  = new Label("Another Label");
     
     dialogVPanel.add(n);
